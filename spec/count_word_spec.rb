@@ -7,10 +7,10 @@ require('count_word')
 
 describe('String#count_word') do
   it('returns the number of times a one word input appears in a sentence') do
-    expect("i".count_word("i think therefore i am")).to(eq(3))
+    expect("i".count_word("i think therefore i am")).to(eq(2))
   end
 
   it('returns the number of times a one word input appears in a sentence and igores common punctuation marks') do
-    expect("we".count_word("I like we, we like we")).to(eq(3))
+    expect("we".count_word("I like we, we like we!")).to(eq(3))
   end
 end

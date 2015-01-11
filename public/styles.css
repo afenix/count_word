@@ -1,0 +1,26 @@
+.container {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 60vh;
+  border: 2px solid;
+  border-radius: 25px;
+  margin: 20px 20px;
+  width: 600;
+}
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+  height: 400;
+}
+
+.form-group1 {
+  width: 300px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
